@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1>Bienvenid@ a "Mensajería de Parejas" por Cifrado César</h1>
+    <h4>Sustituyendo cada letra por otra que se encuentra un número fijo de posiciones más adelante en el mismo alfabeto
+    </h4>
+    <main>
+      <section>
+        <div class="cipher" id="codificar">
+          <h3>Ingresa aquí el mensaje que quieras cifrar:</h3>
+          <input oninput="this.value = this.value.toUpperCase()" type="text" class="inputStyle" id="mensajeCifrado"/>
+          <h3>Elige el número de posiciones que quieras desplazar:</h3>
+          <input type="number" class="inputStyle2" id="desplazamiento" min="0" pattern="^[0-9]+" size="4" />
+          <br>
+          <br>
+          <button type="button" id="botonCifrar">Cifrar</button>
+          <h3>Mensaje Cifrado:</h3>
+          <h5 id="mensajeCifrado2" type="text" class="inputStyle"></h5>
+        </div>
+        <div class="cipher" id="decodificar">
+          <h3>Ingresa aquí el mensaje que quieras descifrar:</h3>
+          <input oninput="this.value = this.value.toUpperCase()" type="text" class="inputStyle"
+            id="mensajeDescifrado" />
+          <h3>Elige el número de posiciones que quieras desplazar:</h3>
+          <input type="number" class="inputStyle2" id="desplazamiento2" min="0" pattern="^[0-9]+" size="4" />
+          <br>
+          <br>
+          <button type="button" id="botonDescifrar">Descifrar</button>
+          <h3>Mensaje Descifrado:</h3>
+          <h5 id="mensajeDescifrado2" type="text" class="inputStyle"></h5>
+        </div>
+      </section>
+    </main>
+    <h3>"Vamos a crear la historia de amor más bonita del mundo"</h3>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
