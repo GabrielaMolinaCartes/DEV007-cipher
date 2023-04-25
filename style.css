@@ -1,0 +1,86 @@
+#root {
+    font-family: 'Handlee', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+body {
+    background: no-repeat url('https://static.vecteezy.com/system/resources/previews/002/011/088/non_2x/rose-flowers-and-hearts-on-red-background-for-valentine-s-day-illustration-vector.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.cipher {
+    display: inline-table;
+    justify-items: center;
+    text-align: center;
+    border-style: dotted;
+    padding: 0 60px 10px;
+}
+
+.inputStyle {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.inputStyle:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.inputStyle:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.inputStyle2 {
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#botonCifrar {
+    font-family: 'Handlee', cursive;
+    background-color: rgba(231, 82, 82, 0.685);
+    color: #fff;
+    border: 1mm ridge rgba(174, 182, 180, 0.767);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+#botonCifrar:hover {
+    background-color: #720804;
+}
+
+#botonDescifrar {
+    font-family: 'Handlee', cursive;
+    background-color: rgba(231, 82, 82, 0.685);
+    color: rgb(240, 245, 245);
+    border: 1mm ridge rgba(174, 182, 180, 0.767);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+#botonDescifrar:hover {
+    background-color: #720804;
+}
