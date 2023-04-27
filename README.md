@@ -101,4 +101,4 @@ La interfaz o pagina web, se desplega usando GitHub Pages.
 
 ## 4. Hito Opcional: Agrega soporte para minúsculas y otros caracteres
 
-En este espacio, sólo profundicé logrando que en la interfáz se reconozcan los espacios ingresados en cada mensaje.
+En este espacio, profundicé logrando que en la interfáz se reconozcan los espacios ingresados en cada mensaje.
