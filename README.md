@@ -83,7 +83,7 @@ cubra los objetivos principales.
     
   - Como resultado tendrás el mensaje descifrado.
 
- ![Alt text](src/images/Descifrado.png) 
+  ![Alt text](src/images/Descifrado.png) 
 
 **2. Pruebas unitarios de los métodos.**  
 Los metódos de `cipher` (`encode` y `decode`) fueron testeados con
