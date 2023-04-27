@@ -1,3 +1,4 @@
+/*Dí un formato a la fuente de todo mi html, color y sombra, centré el contenido*/
 #root {
     font-family: 'Handlee', cursive;
     color: #fff;
@@ -7,12 +8,14 @@
     justify-items: center;
 }
 
+/*Agregué una imagen en el fondo de del html, que cubriera todo el fondo*/
 body {
     background: no-repeat url('https://static.vecteezy.com/system/resources/previews/002/011/088/non_2x/rose-flowers-and-hearts-on-red-background-for-valentine-s-day-illustration-vector.jpg');
     background-size: cover;
     background-position: right;
 }
 
+/*Usando el class= "cipher" logré posicionar el cifrado y descifrado una al lado de la otra, haciendo un borde y centrando el contenido*/
 .cipher {
     display: inline-table;
     justify-items: center;
@@ -21,6 +24,7 @@ body {
     padding: 0 60px 10px;
 }
 
+/*Usando el class= "inputStyle" le di la forma, color, borde y sombreado al lugar donde se escribe el mensaje y el lugar donde se recibe el mensaje cifrado y descifrado*/
 .inputStyle {
     border: 0;
     line-height: 2.5;
@@ -36,14 +40,17 @@ body {
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
+/*Acá agregué un efecto al posicionar el mouse sobre el lugar donde se escriben los mensaje y se reciben los mensajes cifrados y descifrados*/
 .inputStyle:hover {
     background-color: rgba(255, 0, 0, 1);
 }
 
+/*Acá agregué sombra a la caja o input donde se escriben los mesajes y se reciben los mensajes cifrados y descifrados*/
 .inputStyle:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+/*Acá di tamaño, transparencia y color de los números en el espacio donde se agrega el número de desplazamiento*/
 .inputStyle2 {
     width: 50px;
     height: 20px;
@@ -51,7 +58,8 @@ body {
     color: #fff;
 }
 
-#botonCifrar {
+/*Acá di forma, tamaño,centrado, color, fuente y borde a los botones cifrar y descifrar*/
+button {
     font-family: 'Handlee', cursive;
     background-color: rgba(231, 82, 82, 0.685);
     color: #fff;
@@ -64,23 +72,7 @@ body {
     width: 200px;
 }
 
-#botonCifrar:hover {
-    background-color: #720804;
-}
-
-#botonDescifrar {
-    font-family: 'Handlee', cursive;
-    background-color: rgba(231, 82, 82, 0.685);
-    color: rgb(240, 245, 245);
-    border: 1mm ridge rgba(174, 182, 180, 0.767);
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    width: 200px;
-}
-
-#botonDescifrar:hover {
+/*Acá agregué un efecto al posicionar el mouse sobre los botones cifrar y descifrar*/
+button:hover {
     background-color: #720804;
 }
